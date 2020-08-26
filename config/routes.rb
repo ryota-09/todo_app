@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources goals do
+  resources :goals do
     resources :todos do
       member do
         get "sort"
