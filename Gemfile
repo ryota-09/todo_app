@@ -64,3 +64,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
  gem 'devise', '~> 4.2'
 
  gem 'coffee-script-source', '1.8.0'
+
+ # manage sort order
+ gem 'acts_as_list', '~> 0.9.19'
