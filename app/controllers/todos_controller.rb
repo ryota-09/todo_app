@@ -52,7 +52,7 @@ class TodosController < ApplicationController
       @todo = @goal.todos.find_by(id: params[:id])
     end
 
-    # Only allow a trusted parameter "white list" through.
+    
     def todo_params
       params.require(:todo).permit(:content, :goal_id, :position, :done)
     end
